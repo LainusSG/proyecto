@@ -1,0 +1,126 @@
+{% load static %}
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <!-- custom css -->
+    <link rel="stylesheet" href="{% static 'style.css' %}">
+    <link rel="stylesheet" href="{% static 'sidenav.css' %}">
+
+    <!-- jQuery -->
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+    <script src="{% static 'sidenav.js' %}" defer></script>
+    
+    {% block scripts %}
+  
+    {% endblock scripts %}
+
+    <title>{% block title %} Tracy {% endblock %}</title>
+  </head>
+  <body>
+    <br><table width="100%" >
+      <tr>
+        <td width="5%" ROWSPAN=5 >
+          <div id="mySidenav" class="sidenav">
+            <div style="text-align:center"> <img src= "{% static 'logooo.png' %}" alt="100px" width="100px"></div>
+            <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+            <ul class="menus">  
+              <li class="menu">
+                <a href="/programacion-de-cirugia">Programación De Cirugía </a>
+              </li>
+              <li class="menu">
+                <a href="#">Recepción</a>
+              </li>
+              <li class="menu">
+                <a href="#">Lavado</a>
+              </li>
+              <li class="menu">
+                <a href="#">Empaque</a>
+              </li>
+              <li class="menu">
+                <a href="#">Esterilización</a>
+              </li>
+              <li class="menu">
+                <a href="#">Almacenamiento</a>
+              </li>
+              <li class="menu">
+                <a href="#">Distribución</a>
+              </li>
+              <li class="menu">
+                <a href="#">Administración</a>
+              </li>
+            
+            </ul>
+              <div style="text-align:center">
+              
+              <a href="{% url 'logout' %}"><button class="buttonlog">Cerrar Sesión</button></a><br>
+              <h1 class="texto1">Powered by</h1> 
+              <h1 class="texto1">SMARTEST</h1>
+              </div>
+          
+            </div>
+          
+        
+          <span style="font-size:30px;cursor:pointer;" onclick="openNav()"><p class = "head">&#9776; </p></span> 
+        </td>
+
+        <td width="5%" ROWSPAN=5 style= "text-align:center;" ROWSPAN=5 >
+          <div class="circulo"> 
+            <a href="javascript: history.go(-1)"><img src ="{% static "271220-7c290514.png" %}" class="regreso"></div>
+        </td>
+       
+        <td width="80%" style= "text-align:center;" ROWSPAN=5 >
+        titulo
+        </td>
+
+
+
+
+        
+    
+        <td width="10%" style= "text-align:center;">
+
+          <div style="text-align:center"> <img src= "{% static 'Perfil_3VTzYjr.png' %}" alt="50px" width="50px"></div>
+        </td>
+      </tr>
+
+      <tr>  
+        <td width="10%" class="valores-usuario">
+          {{request.user.username}}
+        </td>
+      </tr>
+
+
+      <tr>
+        <td width="10%" class="valores-usuario">
+        puesto
+        </td>
+      </tr>
+
+      <tr>
+        <td width="10%" class="valores-usuario">
+        area
+        </td>
+      </tr>
+
+      <tr>
+        <td width="10%" class="valores-usuario">
+        ID
+        </td>
+      </tr>
+
+
+    </table> 
+    
+    
+    <div class="container mt-3">
+        {% block content %}
+        {% endblock content %}
+    </h1>
+  </body>
+</html>

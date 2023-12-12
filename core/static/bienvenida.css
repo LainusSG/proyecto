@@ -1,0 +1,32 @@
+.titulo{
+    text-align: center;
+    text-shadow: none;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: xx-large;
+}
+
+
+.buttones {
+  padding: 10px 20px;
+  background-color:#38b6ff;
+  color: white;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  text-align: center;
+  text-decoration:none;
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-size: 1.4em;
+  font-weight: bold;
+ 
+  }
+  .buttones:hover {
+    background-color: rgb(90, 196, 200);
+  }
+  .buttones:active {
+    background-color: #0f8f93;
+  }
+
+
+  
