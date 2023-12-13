@@ -1,8 +1,20 @@
-<ul class="u-border-2 u-border-grey-75 u-spacing-15 u-tab-list u-unstyled" role="tablist">
-<li class="u-tab-item" role="presentation">
-  <a class="active u-active-custom-color-3 u-button-style u-custom-color-1 u-tab-link u-tab-link-1" id="link-tab-14b7" href="#tab-14b7" role="tab" aria-controls="tab-14b7" aria-selected="true">Lista de Paquetes</a>
-</li>
-<li class="u-tab-item" role="presentation">
-  <a class="u-active-custom-color-3 u-button-style u-custom-color-1 u-tab-link u-tab-link-2" id="link-tab-0da5" href="#tab-0da5" role="tab" aria-controls="tab-0da5" aria-selected="false">Creación de Paquetes</a>
-</li>
-</ul>
+.button {
+  background-color:#e5eff8;
+  color: black;
+  border: none;
+  cursor: pointer;
+  text-align: center;
+  text-decoration:none;
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-size: 0.9375rem;
+  font-weight: 700;
+  padding: 8px 33px;
+}
+.button:hover {
+  background-color: rgb(114, 185, 187)
+}
+.button:active {
+  background-color: #38b6ff;
+}
+
