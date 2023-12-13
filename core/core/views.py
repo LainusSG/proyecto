@@ -26,16 +26,11 @@ def logint_view(request):
 def home_view(request):
     return render(request, 'bienvenida.html', {})
 
-
-def sidenav_view(request):
-    return render(request, 'sidenav.html', {})
-
-def programacionC_view(request):
-    return render(request, 'programacion-de-cirugia.html', {})
-
-def datosDC (request):
-    return render (request,'datos-de-cirugia.html', {} )
-
+#modulo 1 vistas-----
+#----------------------------------------------------------
+#----------------------------------------------------------
+#----------------------------------------------------------
+#----------------------------------------------------------
 def find_user_view(request):
     if is_ajax(request):
         photo = request.POST.get('photo')
@@ -62,3 +57,12 @@ def find_user_view(request):
                 return JsonResponse({'success': True})
         return JsonResponse({'success': False})
     
+
+def creacionP(request):
+    return render(request, 'modulo1/creacion-de-paquetes.html', {})
+
+def programacionC_view(request):
+    return render(request, 'modulo1/programacion-de-cirugia.html', {})
+
+def datosDC (request):
+    return render (request,'modulo1/datos-de-cirugia.html', {} )

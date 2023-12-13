@@ -26,6 +26,7 @@ from .views import (
     logint_view,
     programacionC_view,
     datosDC,
+    creacionP,
 
 
 )
@@ -38,6 +39,7 @@ urlpatterns = [
     path('logout/', logout_view, name='logout'),
     path('classify/', find_user_view, name='classify'),
     path ('programacion-de-cirugia/', programacionC_view, name='programacionC'),
+    path ('creacion-de-paquetes/', creacionP, name='programacionC'),
     path ('datos-de-programacion/', datosDC, name='programacionC'),
   
 ]
