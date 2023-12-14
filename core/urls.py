@@ -24,6 +24,7 @@ from .views import (
     home_view,
     find_user_view,
     logint_view,
+    ceyes,
     
     #-------------------modulo 1--------------------
     programacionC_view,
@@ -85,6 +86,8 @@ urlpatterns = [
     path('reconocimiento-facial/', login_view, name='login'),
     path('logout/', logout_view, name='logout'),
     path('classify/', find_user_view, name='classify'),
+
+    path ('ceyes/',ceyes, name='ceyes'),
 
     #-------------------modulo 1--------------------
     path ('programacion-de-cirugia/', programacionC_view, name='programacionC'),

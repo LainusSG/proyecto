@@ -21,6 +21,8 @@ def logint_view(request):
 
 
 
+
+
 @login_required
 
 def home_view(request):
@@ -78,28 +80,28 @@ def datosDC (request):
 #------------------------------------------------------------------------------------#
 #------------------------------------------------------------------------------------# 
 def incidencias(request):
-    return render(request, 'incidencias.html', {})
+    return render(request, 'Recepción/incidencias.html', {})
 
 def materialdequirofano(request):
-    return render(request, 'material-de-quirofano.html', {})
+    return render(request, 'Recepción/material-de-quirofano.html', {})
 
 def otrasrecepciones(request):
-    return render(request, 'otras-recepciones.html', {})
+    return render(request, 'Recepción/otras-recepciones.html', {})
 
 def otrasrecepciones2(request):
-    return render(request, 'otras-recepciones2.html', {})
+    return render(request, 'Recepción/otras-recepciones2.html', {})
 
 def otrasunidadeshospitalarias(request):
-    return render(request, 'otras-unidades-hospitalarias.html', {})
+    return render(request, 'Recepción/otras-unidades-hospitalarias.html', {})
 
 def proveedorexterno(request):
-    return render(request, 'proveedor-externo.html', {})
+    return render(request, 'Recepción/proveedor-externo.html', {})
 
 def recepciondeprovedorexterno(request):
-    return render(request, 'recepcion-de-provedor-externo.html', {})
+    return render(request, 'Recepción/recepcion-de-provedor-externo.html', {})
 
 def recepcion(request):
-    return render(request, 'recepcion.html', {})
+    return render(request, 'Recepción/recepcion.html', {})
 
 
 
@@ -109,10 +111,10 @@ def recepcion(request):
 #------------------------------------------------------------------------------------#
 #------------------------------------------------------------------------------------# 
 def lavado(request):
-    return render(request, 'lavado.html', {})
+    return render(request, 'Lavado/lavado.html', {})
 
 def lavadoopc2(request):
-    return render(request, 'lavado-opc2.html', {})
+    return render(request, 'Lavado/lavado-opc2.html', {})
 
 
 
@@ -122,19 +124,19 @@ def lavadoopc2(request):
 #------------------------------------------------------------------------------------#
 #------------------------------------------------------------------------------------# 
 def materialdequirofanoyCEYE(request):
-    return render(request, 'material-de-quirofanoyCEYE.html', {})
+    return render(request, 'Empaque/material-de-quirofanoyCEYE.html', {})
 
 def empaquetadoset(request):
-    return render(request, 'empaquetado-set.html', {})
+    return render(request, 'Empaque/empaquetado-set.html', {})
 
 def otrasareasyproveedorexterno(request):
-    return render(request, 'otras-areas-y-proveedor-externo.html', {})
+    return render(request, 'Empaque/otras-areas-y-proveedor-externo.html', {})
 
 def otrosempaquetados(request):
-    return render(request, 'otros-empaquetados.html', {})
+    return render(request, 'Empaque/otros-empaquetados.html', {})
 
 def lecturaQr(request):
-    return render(request, 'lectura-de-qr.html', {})
+    return render(request, 'Empaque/lectura-de-qr.html', {})
 
 
 #------------------------------------------------------------------------------------#
@@ -143,13 +145,13 @@ def lecturaQr(request):
 #------------------------------------------------------------------------------------#
 #------------------------------------------------------------------------------------# 
 def contenidodeesterilizacion(request):
-    return render(request, 'contenido-de-esterilizacion.html', {})
+    return render(request, 'Esterilización/contenido-de-esterilizacion.html', {})
 
 def esterilizacion2(request):
-    return render(request, 'esterilizacion-2.html', {})
+    return render(request, 'Esterilización/esterilizacion-2.html', {})
 
 def esterilizacionno(request):
-    return render(request, 'esterilizacion-no.html', {})
+    return render(request, 'Esterilización/esterilizacion-no.html', {})
 
 #------------------------------------------------------------------------------------#
 #------------------------------------------------------------------------------------#
@@ -157,10 +159,10 @@ def esterilizacionno(request):
 #------------------------------------------------------------------------------------#
 #------------------------------------------------------------------------------------# 
 def almacengeneral(request):
-    return render(request, 'almacen-general.html', {})
+    return render(request, 'Almacenamiento/almacen-general.html', {})
 
 def recepciondealmacenamiento(request):
-    return render(request, 'recepcion-de-almacenamiento.html', {})
+    return render(request, 'Almacenamiento/recepcion-de-almacenamiento.html', {})
 
 #------------------------------------------------------------------------------------#
 #------------------------------------------------------------------------------------#
@@ -168,19 +170,19 @@ def recepciondealmacenamiento(request):
 #------------------------------------------------------------------------------------#
 #------------------------------------------------------------------------------------# 
 def distribucionmaterialQx(request):
-    return render(request, 'distribucion-materialQx.html', {})
+    return render(request, 'Distribución/distribucion-materialQx.html', {})
 
 def distribucionotros(request):
-    return render(request, 'distribucion-otros.html', {})
+    return render(request, 'Distribución/distribucion-otros.html', {})
 
 def materialdequirofanodistribucion(request):
-    return render(request, 'material-de-quirofano-distribucion.html', {})
+    return render(request, 'Distribución/material-de-quirofano-distribucion.html', {})
 
 def otrasareasyproveedorexternodistribucion(request):
-    return render(request, 'otras-areas-y-proveedor-externo-distribucion.html', {})
+    return render(request, 'Distribución/otras-areas-y-proveedor-externo-distribucion.html', {})
 
 def prestamosotros(request):
-    return render(request, 'prestamos-otros.html', {})
+    return render(request, 'Distribución/prestamos-otros.html', {})
 
 #------------------------------------------------------------------------------------#
 #------------------------------------------------------------------------------------#
@@ -188,22 +190,26 @@ def prestamosotros(request):
 #------------------------------------------------------------------------------------#
 #------------------------------------------------------------------------------------# 
 def dashboard(request):
-    return render(request, 'dashboard.html', {})
+    return render(request, 'Administración/dashboard.html', {})
 
 def altadeinstrumental(request):
-    return render(request, 'alta-de-instrumental.html', {})
+    return render(request, 'Administración/alta-de-instrumental.html', {})
 
 def controldeusuarios(request):
-    return render(request, 'control-de-usuarios.html', {})
+    return render(request, 'Administración/control-de-usuarios.html', {})
 
 def datosdelavadoras(request):
-    return render(request, 'datos-de-lavadoras.html', {})
+    return render(request, 'Administración/datos-de-lavadoras.html', {})
 
 def datosdelesterilizador(request):
-    return render(request, 'datos-del-esterilizador.html', {})
+    return render(request, 'Administración/datos-del-esterilizador.html', {})
 
 def incidenciaadministrador(request):
-    return render(request, 'incidencia-administrador.html', {})
+    return render(request, 'Administración/incidencia-administrador.html', {})
 
 def permisosdeusuarios(request):
-    return render(request, 'permisos-de-usuarios.html', {})
+    return render(request, 'Administración/permisos-de-usuarios.html', {})
+
+
+def ceyes(request):
+    return render(request, 'bienvenidaceyes.html', {})
