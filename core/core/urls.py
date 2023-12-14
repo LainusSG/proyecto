@@ -39,6 +39,7 @@ from .views import (
     proveedorexterno,
     recepciondeprovedorexterno,
     recepcion,
+
     #----------------------------------- lavado -----------------------------------------#
     lavado,
     lavadoopc2,
@@ -49,13 +50,16 @@ from .views import (
     materialdequirofanoyCEYE,
     otrasareasyproveedorexterno,
     otrosempaquetados,
+
     #------------------------------ esterilizacion --------------------------------------#
     contenidodeesterilizacion,
     esterilizacion2,
     esterilizacionno,
+
     #------------------------------------ almacen ---------------------------------------#
     almacengeneral,
     recepciondealmacenamiento,
+    
     #-------------------------------- distribucion --------------------------------------#
     distribucionmaterialQx,
     distribucionotros,
