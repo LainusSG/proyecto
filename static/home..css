@@ -1,0 +1,66 @@
+* {
+  box-sizing: border-box;
+}
+html,
+body {
+  background: #ecf0f3;
+}
+h1 {
+  margin: 0;
+  padding: 0;
+}
+.custom-form {
+  min-width: 30px;
+  max-width: 350px;
+  margin-left: 25%;
+  margin-top: 5%;
+  background: rgba(255, 255, 255, 0.15);
+  padding: 2rem 3rem;
+  border-radius: 2.5rem;
+  background-color: #ecf0f3;
+  color: black;
+  
+}
+.custom-form input {
+  display: block;
+  margin: 2rem 0;
+  width: 100%;
+  border-radius: 0.5rem;
+  padding: 1rem;
+  border: none;
+  box-shadow: inset -5px -5px 15px rgba(255, 255, 255, 0.8), inset 5px 5px 10px
+      rgba(0, 0, 0, 0.1);
+  border: 0 none;
+  background: #ebf5fc;
+}
+.custom-form button {
+  text-transform: uppercase;
+  letter-spacing: 0.15em;
+  border: none;
+  font-size: 0.875rem;
+  color: #ffffff;
+  font-weight: bold;
+  background-color: #03e72d;
+  width: 100%;
+  display: block;
+  padding: 0.875rem 1rem;
+  border-radius: 1.5rem;
+  box-shadow: 3px 3px 8px #b1b1b1, -3px -3px 8px #01b110;
+  cursor: pointer;
+}
+
+.custom-form button:hover {
+    text-transform: uppercase;
+    letter-spacing: 0.15em;
+    border: none;
+    font-size: 0.875rem;
+    color: #ffffff;
+    font-weight: bold;
+    background-color: #78ec8d;
+    width: 100%;
+    display: block;
+    padding: 0.875rem 1rem;
+    border-radius: 1.5rem;
+    box-shadow: 3px 3px 8px #8f8f8f, -3px -3px 8px #78ec8d;
+    cursor: pointer;
+  }

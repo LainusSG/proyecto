@@ -1,0 +1,27 @@
+{% extends 'base.html' %}
+{% load static %}
+
+{% block content %}
+
+<link rel="stylesheet" href="{% static 'creacion-de-paquetes.css' %}">
+<script src="{% static 'tablas.js' %}" defer></script>
+
+
+
+<table width="100%" border="4">
+    <tr width="100%">
+        <td width="50%">
+           <a><button class="button"> Lista de Paquetes</button></a>
+        </td>
+
+        <td width="50%">
+            <a ><button class="button">Creación de Paquetes</button></a>
+        </td>
+    </tr>
+</table>
+
+
+
+
+
+{% endblock content %}
