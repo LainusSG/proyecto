@@ -50,9 +50,12 @@ from .views import (
     otrasareasyproveedorexterno,
     otrosempaquetados,
     #------------------------------ esterilizacion --------------------------------------#
-
+    contenidodeesterilizacion,
+    esterilizacion2,
+    esterilizacionno,
     #------------------------------------ almacen ---------------------------------------#
-
+    almacengeneral,
+    recepciondealmacenamiento.
     #-------------------------------- distribucion --------------------------------------#
 
     #------------------------------- administracion -------------------------------------#
@@ -92,26 +95,15 @@ urlpatterns = [
     path ('material-de-quirofanoyCEYE/', materialdequirofanoyCEYE, name='material-de-quirofanoyCEYE'),
     path ('otras-areas-y-proveedor-externo/', otrasareasyproveedorexterno, name='otras-areas-y-proveedor-externo'),
     path ('otros-empaquetados/', otrosempaquetados, name='otros-empaquetados'),
-    
+
     #------------------------------ esterilizacion --------------------------------------#
-    path ('/', , name=''),
-    path ('/', , name=''),
-    path ('/', , name=''),
-    path ('/', , name=''),
-    path ('/', , name=''),
-    path ('/', , name=''),
-    path ('/', , name=''),
-    path ('/', , name=''),
+    path ('contenido-de-esterilizacion/', contenidodeesterilizacion, name='contenido-de-esterilizacion'),
+    path ('esterilizacion-no/', esterilizacionno, name='esterilizacion-2'),
+    path ('esterilizacion-2/', esterilizacion2, name='esterilizacion-2'),
     
     #------------------------------------ almacen ---------------------------------------#
-    path ('/', , name=''),
-    path ('/', , name=''),
-    path ('/', , name=''),
-    path ('/', , name=''),
-    path ('/', , name=''),
-    path ('/', , name=''),
-    path ('/', , name=''),
-    path ('/', , name=''),
+    path ('recepcion-de-almacenamiento/', recepciondealmacenamiento, name='recepcion-de-almacenamiento'),
+    path ('almacen-general/', almacengeneral, name='almacen-general'),
 
     #-------------------------------- distribucion --------------------------------------#
     path ('/', , name=''),

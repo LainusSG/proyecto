@@ -142,63 +142,25 @@ def lecturaQr(request):
 #------------------------------ esterilizacion --------------------------------------#
 #------------------------------------------------------------------------------------#
 #------------------------------------------------------------------------------------# 
-def (request):
-    return render(request, '.html', {})
+def contenidodeesterilizacion(request):
+    return render(request, 'contenido-de-esterilizacion.html', {})
 
-def (request):
-    return render(request, '.html', {})
+def esterilizacion2(request):
+    return render(request, 'esterilizacion-2.html', {})
 
-def (request):
-    return render(request, '.html', {})
-
-def (request):
-    return render(request, '.html', {})
-
-def (request):
-    return render(request, '.html', {})
-
-def (request):
-    return render(request, '.html', {})
-
-def (request):
-    return render(request, '.html', {})
-
-def (request):
-    return render(request, '.html', {})
-
-
-
+def esterilizacionno(request):
+    return render(request, 'esterilizacion-no.html', {})
 
 #------------------------------------------------------------------------------------#
 #------------------------------------------------------------------------------------#
 #------------------------------------ almacen ---------------------------------------#
 #------------------------------------------------------------------------------------#
 #------------------------------------------------------------------------------------# 
-def (request):
-    return render(request, '.html', {})
+def almacengeneral(request):
+    return render(request, 'almacen-general.html', {})
 
-def (request):
-    return render(request, '.html', {})
-
-def (request):
-    return render(request, '.html', {})
-
-def (request):
-    return render(request, '.html', {})
-
-def (request):
-    return render(request, '.html', {})
-
-def (request):
-    return render(request, '.html', {})
-
-def (request):
-    return render(request, '.html', {})
-
-def (request):
-    return render(request, '.html', {})
-
-
+def recepciondealmacenamiento(request):
+    return render(request, 'recepcion-de-almacenamiento.html', {})
 
 #------------------------------------------------------------------------------------#
 #------------------------------------------------------------------------------------#
