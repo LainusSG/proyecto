@@ -39,6 +39,19 @@ from .views import (
     proveedorexterno,
     recepciondeprovedorexterno,
     recepcion,
+    #----------------------------------- lavado -----------------------------------------#
+    lavado,
+    lavadoopc2,
+
+    #----------------------------------- empaque ----------------------------------------#
+
+    #------------------------------ esterilizacion --------------------------------------#
+
+    #------------------------------------ almacen ---------------------------------------#
+
+    #-------------------------------- distribucion --------------------------------------#
+
+    #------------------------------- administracion -------------------------------------#
 
 
 )
@@ -65,7 +78,64 @@ urlpatterns = [
      path ('proveedor-externo/', proveedorexterno, name='proveedor-externo'),
      path ('recepcion-de-provedor-externo/', recepciondeprovedorexterno, name='recepcion-de-provedor-externo'),
      path ('recepcion/', recepcion, name='recepcion'),
-  
+    #----------------------------------- lavado -----------------------------------------#
+    path ('/', , name=''),
+    path ('/', , name=''),
+
+
+    #----------------------------------- empaque ----------------------------------------#
+    path ('/', , name=''),
+    path ('/', , name=''),
+    path ('/', , name=''),
+    path ('/', , name=''),
+    path ('/', , name=''),
+    path ('/', , name=''),
+    path ('/', , name=''),
+    path ('/', , name=''),
+
+    #------------------------------ esterilizacion --------------------------------------#
+    path ('/', , name=''),
+    path ('/', , name=''),
+    path ('/', , name=''),
+    path ('/', , name=''),
+    path ('/', , name=''),
+    path ('/', , name=''),
+    path ('/', , name=''),
+    path ('/', , name=''),
+    
+    #------------------------------------ almacen ---------------------------------------#
+    path ('/', , name=''),
+    path ('/', , name=''),
+    path ('/', , name=''),
+    path ('/', , name=''),
+    path ('/', , name=''),
+    path ('/', , name=''),
+    path ('/', , name=''),
+    path ('/', , name=''),
+
+    #-------------------------------- distribucion --------------------------------------#
+    path ('/', , name=''),
+    path ('/', , name=''),
+    path ('/', , name=''),
+    path ('/', , name=''),
+    path ('/', , name=''),
+    path ('/', , name=''),
+    path ('/', , name=''),
+    path ('/', , name=''),
+
+    #------------------------------- administracion -------------------------------------#
+    path ('/', , name=''),
+    path ('/', , name=''),
+    path ('/', , name=''),
+    path ('/', , name=''),
+    path ('/', , name=''),
+    path ('/', , name=''),
+    path ('/', , name=''),
+    path ('/', , name=''),
+    
+
+
+
 ]
 
 urlpatterns += static(settings.STATIC_URL, document_root=settings.STATIC_ROOT)

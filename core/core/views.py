@@ -108,6 +108,11 @@ def recepcion(request):
 #----------------------------------- lavado -----------------------------------------#
 #------------------------------------------------------------------------------------#
 #------------------------------------------------------------------------------------# 
+def lavado(request):
+    return render(request, 'lavado.html', {})
+
+def lavadoopc2(request):
+    return render(request, 'lavado-opc2.html', {})
 
 
 
@@ -116,6 +121,30 @@ def recepcion(request):
 #----------------------------------- empaque ----------------------------------------#
 #------------------------------------------------------------------------------------#
 #------------------------------------------------------------------------------------# 
+def (request):
+    return render(request, '.html', {})
+
+def (request):
+    return render(request, '.html', {})
+
+def (request):
+    return render(request, '.html', {})
+
+def (request):
+    return render(request, '.html', {})
+
+def (request):
+    return render(request, '.html', {})
+
+def (request):
+    return render(request, '.html', {})
+
+def (request):
+    return render(request, '.html', {})
+
+def (request):
+    return render(request, '.html', {})
+
 
 
 
@@ -124,14 +153,62 @@ def recepcion(request):
 #------------------------------ esterilizacion --------------------------------------#
 #------------------------------------------------------------------------------------#
 #------------------------------------------------------------------------------------# 
+def (request):
+    return render(request, '.html', {})
+
+def (request):
+    return render(request, '.html', {})
+
+def (request):
+    return render(request, '.html', {})
+
+def (request):
+    return render(request, '.html', {})
+
+def (request):
+    return render(request, '.html', {})
+
+def (request):
+    return render(request, '.html', {})
+
+def (request):
+    return render(request, '.html', {})
+
+def (request):
+    return render(request, '.html', {})
+
 
 
 
 #------------------------------------------------------------------------------------#
 #------------------------------------------------------------------------------------#
-#------------------------------------ almacen ---------..----------------------------#
+#------------------------------------ almacen ---------------------------------------#
 #------------------------------------------------------------------------------------#
 #------------------------------------------------------------------------------------# 
+def (request):
+    return render(request, '.html', {})
+
+def (request):
+    return render(request, '.html', {})
+
+def (request):
+    return render(request, '.html', {})
+
+def (request):
+    return render(request, '.html', {})
+
+def (request):
+    return render(request, '.html', {})
+
+def (request):
+    return render(request, '.html', {})
+
+def (request):
+    return render(request, '.html', {})
+
+def (request):
+    return render(request, '.html', {})
+
 
 
 #------------------------------------------------------------------------------------#
@@ -139,6 +216,30 @@ def recepcion(request):
 #-------------------------------- distribucion --------------------------------------#
 #------------------------------------------------------------------------------------#
 #------------------------------------------------------------------------------------# 
+def (request):
+    return render(request, '.html', {})
+
+def (request):
+    return render(request, '.html', {})
+
+def (request):
+    return render(request, '.html', {})
+
+def (request):
+    return render(request, '.html', {})
+
+def (request):
+    return render(request, '.html', {})
+
+def (request):
+    return render(request, '.html', {})
+
+def (request):
+    return render(request, '.html', {})
+
+def (request):
+    return render(request, '.html', {})
+
 
 
 #------------------------------------------------------------------------------------#
@@ -146,3 +247,26 @@ def recepcion(request):
 #------------------------------- administracion -------------------------------------#
 #------------------------------------------------------------------------------------#
 #------------------------------------------------------------------------------------# 
+def (request):
+    return render(request, '.html', {})
+
+def (request):
+    return render(request, '.html', {})
+
+def (request):
+    return render(request, '.html', {})
+
+def (request):
+    return render(request, '.html', {})
+
+def (request):
+    return render(request, '.html', {})
+
+def (request):
+    return render(request, '.html', {})
+
+def (request):
+    return render(request, '.html', {})
+
+def (request):
+    return render(request, '.html', {})
