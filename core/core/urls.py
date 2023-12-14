@@ -55,11 +55,22 @@ from .views import (
     esterilizacionno,
     #------------------------------------ almacen ---------------------------------------#
     almacengeneral,
-    recepciondealmacenamiento.
+    recepciondealmacenamiento,
     #-------------------------------- distribucion --------------------------------------#
-
+    distribucionmaterialQx,
+    distribucionotros,
+    materialdequirofanodistribucion,
+    otrasareasyproveedorexternodistribucion,
+    prestamosotros,
+    
     #------------------------------- administracion -------------------------------------#
-
+    altadeinstrumental,
+    controldeusuarios,
+    dashboard,
+    datosdelavadoras,
+    datosdelesterilizador,
+    incidenciaadministrador,
+    permisosdeusuarios,
 
 )
 
@@ -106,28 +117,20 @@ urlpatterns = [
     path ('almacen-general/', almacengeneral, name='almacen-general'),
 
     #-------------------------------- distribucion --------------------------------------#
-    path ('/', , name=''),
-    path ('/', , name=''),
-    path ('/', , name=''),
-    path ('/', , name=''),
-    path ('/', , name=''),
-    path ('/', , name=''),
-    path ('/', , name=''),
-    path ('/', , name=''),
+    path ('distribucion-materialQx/', distribucionmaterialQx, name='distribucion-materialQx'),
+    path ('distribucion-otros/', distribucionotros, name='distribucion-otros'),
+    path ('material-de-quirofano-distribucion/', materialdequirofanodistribucion, name='material-de-quirofano-distribucion'),
+    path ('otras-areas-y-proveedor-externo-distribucion/', otrasareasyproveedorexternodistribucion, name='otras-areas-y-proveedor-externo-distribucion'),
+    path ('prestamos-otros/', prestamosotros, name='prestamos-otros'),
 
     #------------------------------- administracion -------------------------------------#
-    path ('/', , name=''),
-    path ('/', , name=''),
-    path ('/', , name=''),
-    path ('/', , name=''),
-    path ('/', , name=''),
-    path ('/', , name=''),
-    path ('/', , name=''),
-    path ('/', , name=''),
-
-
-
-
+    path ('alta-de-instrumental/', altadeinstrumental, name='alta-de-instrumental'),
+    path ('control-de-usuarios/', controldeusuarios, name='control-de-usuarios'),
+    path ('dashboard/', dashboard, name='dashboard'),
+    path ('datos-de-lavadoras/', datosdelavadoras, name='datos-de-lavadoras'),
+    path ('datos-del-esterilizador/', datosdelesterilizador, name='datos-del-esterilizador'),
+    path ('incidencia-administrador/', incidenciaadministrador, name='incidencia-administrador'),
+    path ('permisos-de-usuarios/', permisosdeusuarios, name='permisos-de-usuarios'),
 ]
 
 urlpatterns += static(settings.STATIC_URL, document_root=settings.STATIC_ROOT)

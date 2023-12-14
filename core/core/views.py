@@ -167,57 +167,43 @@ def recepciondealmacenamiento(request):
 #-------------------------------- distribucion --------------------------------------#
 #------------------------------------------------------------------------------------#
 #------------------------------------------------------------------------------------# 
-def (request):
-    return render(request, '.html', {})
+def distribucionmaterialQx(request):
+    return render(request, 'distribucion-materialQx.html', {})
 
-def (request):
-    return render(request, '.html', {})
+def distribucionotros(request):
+    return render(request, 'distribucion-otros.html', {})
 
-def (request):
-    return render(request, '.html', {})
+def materialdequirofanodistribucion(request):
+    return render(request, 'material-de-quirofano-distribucion.html', {})
 
-def (request):
-    return render(request, '.html', {})
+def otrasareasyproveedorexternodistribucion(request):
+    return render(request, 'otras-areas-y-proveedor-externo-distribucion.html', {})
 
-def (request):
-    return render(request, '.html', {})
-
-def (request):
-    return render(request, '.html', {})
-
-def (request):
-    return render(request, '.html', {})
-
-def (request):
-    return render(request, '.html', {})
-
-
+def prestamosotros(request):
+    return render(request, 'prestamos-otros.html', {})
 
 #------------------------------------------------------------------------------------#
 #------------------------------------------------------------------------------------#
 #------------------------------- administracion -------------------------------------#
 #------------------------------------------------------------------------------------#
 #------------------------------------------------------------------------------------# 
-def (request):
-    return render(request, '.html', {})
+def dashboard(request):
+    return render(request, 'dashboard.html', {})
 
-def (request):
-    return render(request, '.html', {})
+def altadeinstrumental(request):
+    return render(request, 'alta-de-instrumental.html', {})
 
-def (request):
-    return render(request, '.html', {})
+def controldeusuarios(request):
+    return render(request, 'control-de-usuarios.html', {})
 
-def (request):
-    return render(request, '.html', {})
+def datosdelavadoras(request):
+    return render(request, 'datos-de-lavadoras.html', {})
 
-def (request):
-    return render(request, '.html', {})
+def datosdelesterilizador(request):
+    return render(request, 'datos-del-esterilizador.html', {})
 
-def (request):
-    return render(request, '.html', {})
+def incidenciaadministrador(request):
+    return render(request, 'incidencia-administrador.html', {})
 
-def (request):
-    return render(request, '.html', {})
-
-def (request):
-    return render(request, '.html', {})
+def permisosdeusuarios(request):
+    return render(request, 'permisos-de-usuarios.html', {})
