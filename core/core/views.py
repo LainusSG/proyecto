@@ -121,31 +121,20 @@ def lavadoopc2(request):
 #----------------------------------- empaque ----------------------------------------#
 #------------------------------------------------------------------------------------#
 #------------------------------------------------------------------------------------# 
-def (request):
-    return render(request, '.html', {})
+def materialdequirofanoyCEYE(request):
+    return render(request, 'material-de-quirofanoyCEYE.html', {})
 
-def (request):
-    return render(request, '.html', {})
+def empaquetadoset(request):
+    return render(request, 'empaquetado-set.html', {})
 
-def (request):
-    return render(request, '.html', {})
+def otrasareasyproveedorexterno(request):
+    return render(request, 'otras-areas-y-proveedor-externo.html', {})
 
-def (request):
-    return render(request, '.html', {})
+def otrosempaquetados(request):
+    return render(request, 'otros-empaquetados.html', {})
 
-def (request):
-    return render(request, '.html', {})
-
-def (request):
-    return render(request, '.html', {})
-
-def (request):
-    return render(request, '.html', {})
-
-def (request):
-    return render(request, '.html', {})
-
-
+def lecturaQr(request):
+    return render(request, 'lectura-de-qr.html', {})
 
 
 #------------------------------------------------------------------------------------#

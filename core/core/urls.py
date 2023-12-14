@@ -44,7 +44,11 @@ from .views import (
     lavadoopc2,
 
     #----------------------------------- empaque ----------------------------------------#
-
+    empaquetadoset,
+    lecturaQr,
+    materialdequirofanoyCEYE,
+    otrasareasyproveedorexterno,
+    otrosempaquetados,
     #------------------------------ esterilizacion --------------------------------------#
 
     #------------------------------------ almacen ---------------------------------------#
@@ -79,20 +83,16 @@ urlpatterns = [
      path ('recepcion-de-provedor-externo/', recepciondeprovedorexterno, name='recepcion-de-provedor-externo'),
      path ('recepcion/', recepcion, name='recepcion'),
     #----------------------------------- lavado -----------------------------------------#
-    path ('/', , name=''),
-    path ('/', , name=''),
-
+    path ('lavado/', lavado, name='lavado'),
+    path ('lavado-opc2/', lavadoopc2, name='lavado-opc2'),
 
     #----------------------------------- empaque ----------------------------------------#
-    path ('/', , name=''),
-    path ('/', , name=''),
-    path ('/', , name=''),
-    path ('/', , name=''),
-    path ('/', , name=''),
-    path ('/', , name=''),
-    path ('/', , name=''),
-    path ('/', , name=''),
-
+    path ('empaquetado-set/', empaquetadoset, name='empaquetado-set'),
+    path ('lectura-de-qr/', lecturaQr, name='lectura-de-qr'),
+    path ('material-de-quirofanoyCEYE/', materialdequirofanoyCEYE, name='material-de-quirofanoyCEYE'),
+    path ('otras-areas-y-proveedor-externo/', otrasareasyproveedorexterno, name='otras-areas-y-proveedor-externo'),
+    path ('otros-empaquetados/', otrosempaquetados, name='otros-empaquetados'),
+    
     #------------------------------ esterilizacion --------------------------------------#
     path ('/', , name=''),
     path ('/', , name=''),
@@ -132,7 +132,7 @@ urlpatterns = [
     path ('/', , name=''),
     path ('/', , name=''),
     path ('/', , name=''),
-    
+
 
 
 
